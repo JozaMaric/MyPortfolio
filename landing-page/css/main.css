@@ -1,0 +1,120 @@
+/*mobile first*/
+body{
+width: 100%;
+background:linear-gradient(180deg,red,lightblue);
+text-align: center;
+margin:10px auto;
+}
+/* logo*/
+.logo{
+  max-width:100px;
+  max-height: 100px;
+}
+#header-img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+}
+#header{
+      position:fixed;
+      top:0;
+      width:100%;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap:wrap;
+      font-size:1.7em;
+      background-color:red;
+      border-bottom:9px solid black;
+}
+#nav-bar{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+padding-bottom: 5px;
+}
+h2{
+  border-bottom:5px solid lightblue;
+}
+section{
+  max-width: 80%;
+  border: 5px double lightblue;
+  margin:0 auto 20px;
+  padding:10px;
+  box-shadow: 5px 8px;
+}
+main{
+  margin-top:130px;
+  font-size: 20px;
+  border-left:5px solid black;
+}
+footer{
+  width: 80%;
+  margin:0 auto;
+  border: 5px double red;
+  padding: 10px;
+}
+.textinput{
+  min-width:200px;
+  height: 30px;
+}
+#sub{
+  background:lightblue;
+  width:100px;
+  padding:10px;
+  margin:10px;
+}
+.close-btn {
+    display: none;
+}
+/*tablet*/
+@media screen and (min-width:600px) {
+#header{
+  flex-direction:row;
+  font-size: 30px;
+}
+#nav-bar{
+  width:30%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo{
+width:150px;
+height:150px;
+padding:5px;
+}
+}
+/*desktop*/
+@media screen and (min-width:800px){
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main{
+  font-size: 25px;
+
+}
+#form{
+  display: none;
+  width:600px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  right: auto;
+  top: 30%;
+  background-color: rgb(306,0,0,0.9); /* Black fallback color */
+}
+.close-btn {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    background-color: rgb(306,0,0,1);
+    border: 2px solid black;
+    padding: 10px;
+}
+}

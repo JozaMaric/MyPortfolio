@@ -1,0 +1,53 @@
+/*cardbox style*/
+.cardbox {
+  width: 300px;
+  height:560px;
+  background:linear-gradient(to bottom,rgba(0, 0, 0, 0.95) 5%,rgba(0,0,0,0.75),rgba(0, 0, 0, 0.95));
+  padding: 5px;
+  margin: 0 auto;
+  border-radius:2%;
+  box-shadow: 10px 5px 5px #888888;
+  border: 8px double rgba(0,0,0,0.9);
+  text-align: center;
+  color:silver;
+}
+/*image style*/
+.picture {
+  width: 200px;
+  height: 150px;
+  border-style:none;
+  border-radius: 10%;
+  opacity:0.8;
+}
+/*fact paragraph style*/
+.fact {
+  font-style: italic;
+}
+/*textbox  style*/
+.textbox {
+  border-style:none;
+  width: 100%;
+  padding: 3px;
+  text-align: left;
+  font-size:18px;
+}
+/*span style*/
+.bold {
+  color:red;
+  font-size: 16px;
+  font-family:cursive;
+  font-weight:bold;
+}
+/*unorder list style*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/*cat name style*/
+h2 {
+  color: red;
+  font-weight:bold;
+  padding: 5px;
+  text-shadow:2px 2px 25px silver;
+}

@@ -1,0 +1,61 @@
+section{
+  width:100%;
+  margin-top: 10px;
+}
+.column{
+  font-size: 20px;
+  color:white;
+}
+.skill-bar{
+  background:rgb(0,0,0,0.3);
+  padding: 20px;
+}
+.skill-bar-name{
+  color:red;
+  text-align: left;
+}
+.bar{
+  min-width:300px;
+  padding: 2px;
+  background: grey;
+  text-align: right;
+  border-radius:10px;
+}
+.html-bar{
+  width:90%;
+  background-color:green;
+  border-radius: 10px;
+}
+.css-bar{
+  width:80%;
+  background-color:green;
+  border-radius: 10px;
+}
+.js-bar{
+  width:65%;
+  background-color:green;
+  border-radius: 10px;
+}
+.php-bar{
+  width:30%;
+  background-color:green;
+  border-radius: 10px;
+}
+.Node-js-bar{
+  width:20%;
+  background-color:green;
+  border-radius: 10px;
+}
+ol{
+  list-style-position: inside;
+  font-size: 25px;
+  color:red;
+  padding:5px;
+  margin:0;
+  text-align: left;
+}
+.library{
+  width:40%;
+  background:rgba(0,0,0,0.7);
+  text-align: center;
+}

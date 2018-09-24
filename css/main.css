@@ -4,17 +4,18 @@
 
 }
 /*mobile first*/
+html{
+	margin-top:0;
+	margin-bottom: 0;
+	background-color: black;
+}
 body {
 	width:100%;
 	height: 100%;
 	margin:0 auto;
 	text-align:center;
 	background:url(../pictures/profile.jpg) no-repeat  center center fixed ;
-  background-size: cover;
-	transform: translate3d(0,0,0);
-	-webkit-transform: translate3d(0,0,0);
-	position:static;
-	z-index:-1;
+  background-size:contain;
 }
 /*head of page*/
 .header{
@@ -129,12 +130,4 @@ main {
 	text-decoration:none;
 	color:gold;
 	font-size: 16px;
-}
-@media screen and (min-width:600px) {
-	html{
-		background-color: black;
-	}
-	body{
-		background-size: contain;
-	}
 }

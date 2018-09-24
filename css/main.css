@@ -9,7 +9,9 @@ body {
 	margin:0 auto;
 	text-align:center;
 	background:url(../pictures/profile.jpg) no-repeat  center center;
-	background-attachment:fixed;
+	-webkit-background-attachment:fixed;
+  background-attachment:fixed;
+	position:static;
 	background-size:cover;
 
 }

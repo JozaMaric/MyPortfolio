@@ -6,12 +6,15 @@
 /*mobile first*/
 body {
 	width:100%;
+	height: 100%;
 	margin:0 auto;
 	text-align:center;
 	background:url(../pictures/profile.jpg) no-repeat  center center fixed ;
-	background-size: cover;
+  background-size: cover;
 	transform: translate3d(0,0,0);
 	-webkit-transform: translate3d(0,0,0);
+	position:static;
+	z-index:-1;
 }
 /*head of page*/
 .header{

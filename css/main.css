@@ -9,7 +9,7 @@ body {
 	height: 100%;
 	margin:0 auto;
 	text-align:center;
-	background:url(../pictures/profile.jpg)  no-repeat fixed center ;
+	background:url(../pictures/profile.jpg)  no-repeat fixed center center;
   background-size:100%;
 }
 /*head of page*/

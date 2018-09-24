@@ -4,16 +4,14 @@
 
 }
 /*mobile first*/
-html{
-	background-color: black;
-
-}
 body {
 	width:100%;
 	margin:0 auto;
 	text-align:center;
-	background:url(../pictures/profile.jpg) no-repeat center center fixed;
-	background-size:contain;
+	background:url(../pictures/profile.jpg) no-repeat  center center;
+	background-attachment:fixed;
+	background-size:cover;
+
 }
 /*head of page*/
 .header{
@@ -128,4 +126,12 @@ main {
 	text-decoration:none;
 	color:gold;
 	font-size: 16px;
+}
+@media screen and (min-width:600px) {
+	html{
+		background-color: black;
+	}
+	body{
+		background-size: contain;
+	}
 }

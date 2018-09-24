@@ -10,7 +10,7 @@ body {
 	margin:0 auto;
 	text-align:center;
 	background:url(../pictures/profile.jpg)  no-repeat fixed center center;
-  background-size:100%;
+  background-size:cover;
 }
 /*head of page*/
 .header{

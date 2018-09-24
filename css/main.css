@@ -8,13 +8,10 @@ body {
 	width:100%;
 	margin:0 auto;
 	text-align:center;
-	background:url(../pictures/profile.jpg) no-repeat  center center;
-	position: static;
-	-webkit-transform: translate3d(0,0,0);
+	background:url(../pictures/profile.jpg) no-repeat  center center fixed ;
+	background-size: cover;
 	transform: translate3d(0,0,0);
-	backface-visibility: hidden;
-	background-size:cover;
-
+	-webkit-transform: translate3d(0,0,0);
 }
 /*head of page*/
 .header{

@@ -11,7 +11,7 @@ body {
 	background:url(../pictures/profile.jpg) no-repeat  center center;
 	-webkit-background-attachment:fixed;
   background-attachment:fixed;
-	position:static;
+	backface-visibility: hidden;
 	background-size:cover;
 
 }

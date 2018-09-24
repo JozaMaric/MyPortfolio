@@ -4,24 +4,27 @@
 
 }
 /*mobile first*/
+html{
+	background-color: black;
+
+}
 body {
 	width:100%;
 	margin:0 auto;
-	padding:0;
 	text-align:center;
-  background:url(../pictures/profile.jpg) no-repeat center center fixed;
-	background-size:cover;
+	background:url(../pictures/profile.jpg) no-repeat center center fixed;
+	background-size:contain;
 }
 /*head of page*/
 .header{
 	font-size: 16px;
 	width:100%;
-	padding:0 10px 10px 0 ;
+
 	border-bottom:2px solid orange;
 }
 .name {
 	text-align:right;
-	padding:10px;
+	padding:15px;
 }
 /*pitch*/
 @-webkit-keyframes scroll{
@@ -125,12 +128,4 @@ main {
 	text-decoration:none;
 	color:gold;
 	font-size: 16px;
-}
-@media screen and (min-width:650px){
-	html{
-		background: black;
-	}
-	body{
-		background-size:contain;
-	}
 }

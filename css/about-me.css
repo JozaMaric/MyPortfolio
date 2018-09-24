@@ -15,7 +15,7 @@ section{
   text-align: left;
 }
 .bar{
-  min-width:300px;
+  min-width:200px;
   padding: 2px;
   background: grey;
   text-align: right;
@@ -55,7 +55,7 @@ ol{
   text-align: left;
 }
 .library{
-  width:40%;
+  min-width:200px;
   margin: 10px;
   background:rgba(0,0,0,0.7);
   text-align: center;

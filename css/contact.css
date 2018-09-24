@@ -1,25 +1,29 @@
+.contact-headline{
+  margin:5%;
+  width: 100%;
+  color:silver;
+  background:rgb(50,0,0,0.9);
+  border-radius: 10px;
+  text-shadow: 3px 3px 20px  silver;
+}
+
 .contact-link{
   margin:5% 20px ;
   padding: 10px;
   min-width: 150px;
-  background:rgba(90,0,0,0.9);
+  background:rgb(50,0,0);
   border-radius: 25%;
-  box-shadow: 10px 10px red;
 }
 .contact-link a{
   text-decoration: none;
 }
 .contact-title{
-  color:white;
+  color:silver;
   padding-bottom: 5px;
   text-shadow: 3px 3px 20px silver;
 }
-.contact-headline{
-  margin:5%;
-  width: 100%;
-  color:silver;
-  background:rgba(0,170,0,0.7);
-  border-radius: 10px;
-  box-shadow: 5px 5px darkgreen
-
+.glow{
+    box-shadow: 0px 0px 10px 2px rgb(130,0,0);
+    border-radius: 12px;
+    padding:3px;
 }
